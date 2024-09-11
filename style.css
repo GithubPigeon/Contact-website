@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .container2{
+  background-image: url(img/background2.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+ }
+
+ .container{
+            background-image: url(img/background1.png);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           }
+ 
+.profile-box{
+             align-items: center;
+             text-align: center;
+             padding: 40px 90px; 
+            }
+.menu-icon{
+            width: 25px;
+            position: absolute;
+            left: 40px;
+            top: 40px;
+          }
+
+.setting-icon{
+            width: 25px;
+            position: absolute;
+            right: 40px;
+            top: 40px;
+            }
+
+.profile-pic{
+            width: 150px;
+            border-radius: 50%;
+            background: #fff;
+            padding: 6px
+            }
+        
+.profile-bottom{
+                background: #fff;
+                color: #999;
+                padding: 10px 0;
+                border-radius: 20px;
+               }
+
+#selectField{
+        
+            text-align: center;
+            background: #000000;
+            color: #ffffff;
+            padding: 20px 0;
+            margin-top: 20px ;
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            align-items: center;
+            }
+
+
+.Link-boxs{
+            background: #000000;
+            color: #ffffff;
+            padding: 20px 0;
+            margin-top: 3px ;
+            margin-right: 3px;
+            margin-left: 3px;
+            margin-bottom: 3px;
+            border-radius: 6px;
+            display: flex ;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            box-sizing: content-box;
+           }         
+
+.Link-boxs2{
+            background: #000000;
+            color: #ffffff;
+            padding: 20px 0;
+            margin-top: 3px ;
+            margin-right: 3px;
+            margin-left: 3px;
+            margin-bottom: 3px;
+            border-radius: 6px;
+            display: flex ;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            box-sizing: content-box;    
+}     
+
+.Link-boxs2:hover{
+  background: #999;
+}
+
+.Link-boxs:hover{
+                  background: #999;
+                }
+
+.imagesLeft{
+         float: left;
+         margin-top: -7px;
+         margin-left: 10px;
+         margin-bottom:  10px;
+         margin-right: 10px;
+        }    
+
+        
+.imagesRight{
+            float: right;
+            margin-top: -7px;
+            margin-left: 10px;
+            margin-bottom:  10px;
+            margin-right: 10px;
+            rotate: 90;
+           }          
+
+#list{
+      background: #b23131;
+      border-radius: 6px;
+      overflow: hidden;
+     }
+
+.options{
+          width: 100%;
+          padding: 15px 0 15px 10px;
+          list-style: none;
+          cursor: pointer;
+          box-sizing: border-box;
+          position: relative;
+        }
+
+.options img{
+          width: 25px;
+          position:absolute;
+          top: 12px;
+          left: 25px;
+        }           
+
+.hide{
+      visibility: hidden;
+     }
