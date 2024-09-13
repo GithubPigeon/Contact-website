@@ -13,6 +13,8 @@
   align-items: center;
   justify-content: center;
   height: 900px;
+  width: 900px
+     
  }
 
  .container{
@@ -27,7 +29,7 @@
 .profile-box{
              align-items: center;
              text-align: center;
-             padding: 90px 90px; 
+             padding: 40px 90px; 
             }
 .menu-icon{
             width: 25px;
